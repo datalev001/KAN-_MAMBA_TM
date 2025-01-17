@@ -1,1 +1,8 @@
-# KAN-_MAMBA_TM
+# Hybrid KAN and Mamba Models for Time Series Forecasting
+Exploring Dynamic Weighting, State-Space Modeling, and ARMA to Compare Strengths, Address Challenges, and Deliver Superior Forecasting Performance
+Predicting future outcomes - like sales trends, stock movements, or weather patterns - requires handling both static details (such as product features) and dynamic factors (like seasonal cycles or shifting market conditions). Ignoring either aspect often weakens a forecast, because real-world phenomena are rarely static.
+Kolmogorov–Arnold Networks (KAN) are effective at uncovering complex, hidden relationships by dynamically adjusting their internal weights. For example, in supply chain product sales forecasting, KAN can reveal how price, promotion timing, and seasonality interact to affect demand - like showing that discounts drive sales only during specific months. 
+Meanwhile, the Mamba state-space model focuses on how patterns evolve over time. Think of stock prices that shift daily, or demand surges that repeat seasonally. Mamba captures these changes as they unfold, making it invaluable in scenarios driven by time.
+Most real forecasts rely on both fixed and changing factors. Using only KAN or only Mamba means missing part of the picture. That's why combining them works better - KAN handles the fixed patterns, while Mamba captures the changing ones, giving a more complete and accurate model.
+Of course, no exploration of forecasting techniques is complete without a classic benchmark. Enter ARMA, a longstanding statistical model for time series data. By comparing KAN, Mamba, and their hybrid approach against ARMA, we can evaluate how these emerging methods stack up against a time-tested standard.
+I have explored the capabilities of KAN, the time-based advantages of Mamba, and the benefits of combining them, finally showing how blending static and dynamic modeling offers more accurate and insightful forecasts.
